@@ -36,6 +36,7 @@ public class SPPMRamonesBA3 {
     }
  public static int operación(int c1, int c2){
      // paso 3 realizo la operacion (adjuno todo en R, para evitar repetir el procedimiento)
+     // use math funciones de raiz cuadrada y de potencias
      int R;
      R= (int) Math.pow(c1,2) + (int)Math.pow(c2,2);
      System.out.println("Tu hiponenusa es:" + Math.sqrt(R));
